@@ -11,6 +11,7 @@ public class primeNumber {
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter any number");
 		int number= sc.nextInt();
+		sc.close();
 		
 		if(number<1){
 			System.out.println("Its not a valid input");
