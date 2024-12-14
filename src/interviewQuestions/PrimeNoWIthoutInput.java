@@ -16,12 +16,12 @@ public class PrimeNoWIthoutInput {
 				a=a+1;
 			}	
 		}
-if(a<1) {
-	System.out.println("Its a Prime Number");
-}
-else {
-	System.out.println("Its not a prime number");
-}
+		if(a<1) {
+			System.out.println("Its a Prime Number");
+		}
+		else {
+			System.out.println("Its not a prime number");
+		}
 		
 	}
 	}
